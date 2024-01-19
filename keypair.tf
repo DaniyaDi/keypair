@@ -1,1 +1,4 @@
-
+resource "aws_key_pair" "dana" {
+  key_name   = "dana"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC/14IeddeJCfnxbdFc1y9g/YtLykvS1bKRD92KV4Jp4I8UqgeBZyCtYQinz1aTb9eZMxp9nJgwZQ1W9dR9Qc7D7OpIp7TdiRY3OrkqoIjGRjOZR0ZpauWtFPOlCAv62anRMps3HXsRIgr+R8Q42/0pj+wPxP0X5Jf1YezriKWO6FyZT6JQf++1SljqFCVpPQSO6cq6u/db+8y/mKN6D2iSu1hSIODNrnjKj2ccpPfurCWcuqLihVSoofdy7Pca3+nL+mqPALmiW+cF7LSjjegpkGAF3wvqXYvm/J26HqIPInF50OtHLHsA4XhTePLbhD9nlXq52bNyZvLN0kNF120mY/2IL/ESikZn8Rt2Xr/J+mnd9rOdYCxJobX5k9QCS4GHIMmpU6JMG11Vl0accM3KZ5I2cftr80NGsapWKw8VyopUer1BlvZEy7QzLmN24XEWOeAJcNwFR//FRSOqpK+m/sMjpyHRcFFPm1yhM7a8fZJq/rQ+2NdUuVIDw7mfG39UmsZPYrB+o/mLLeC1Z9CwRw0s/Br3HxNabqs17ouijvdlv+hB6z3gfyEkYenNccgIfk/PVXlRi/tXZw2Nlr2y8FkRZh4sOoFttbaXPManQhymHwd8e2vc/ROHr5fKST0JMGYgJvy1+Nph6L570WAek9Z8I8YfHgoly27dCDjyvQ== islamovna94@gmail.com"
+}
