@@ -4,6 +4,6 @@ resource "aws_instance" "task" {
   key_name      =  "dana"
 
   tags = {
-    Name = "task instance"
+    Name = "task-instance"
   }
 }
