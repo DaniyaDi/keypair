@@ -30,7 +30,7 @@ jobs:
       run: terraform init
 
     - name: Format Terraform code
-      run: terraform fmt 
+      run: terraform fmt -check -recursive
 
     - name: Terraform Plan
       run: terraform plan
