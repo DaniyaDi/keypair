@@ -6,7 +6,7 @@ on:
       - new
   push:
     branches:
-      - new
+      - main
 
 jobs:
   terraform:
