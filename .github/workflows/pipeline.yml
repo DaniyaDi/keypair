@@ -34,4 +34,9 @@ jobs:
 
     - name: Terraform Plan
       run: terraform plan
-
+      
+    - name: Terraform graph
+      run: terraform graph
+      
+    - name: Terraform apply
+      run: terraform apply
