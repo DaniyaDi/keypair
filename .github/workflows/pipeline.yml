@@ -1,13 +1,14 @@
 name: Terraform Workflow
 
 on:
-  push:
+  pull_request:
     branches:
       - new
       - test
   pull_request:
     branches:
       - main
+
 
 
 jobs:
